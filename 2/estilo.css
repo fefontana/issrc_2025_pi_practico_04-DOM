@@ -1,22 +1,38 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tareas</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-    <h1>Lista de Tareas</h1>
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
 
-    <input type="text" id="tareaInput" placeholder="Escribe una tarea...">
-    <button id="agregarBtn">Agregar Tarea</button>
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
-    <ul id="tareasLista">
-        <!-- Las tareas aparecerán aquí -->
-    </ul>
+button.delete {
+    background-color: #f44336;
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
