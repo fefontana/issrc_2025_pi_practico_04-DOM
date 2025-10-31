@@ -22,13 +22,13 @@ button:hover {
 /* Modal oculto por defecto */
 .modal {
   display: none; /* Oculto */
-  /* position: fixed;
+  position: fixed;
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.5);
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 /* Clase que muestra el modal */
