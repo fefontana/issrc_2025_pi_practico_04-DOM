@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 3em auto;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+input, button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  user-select: none;
+}
+
+th.activo {
+  background-color: #d0eaff;
+}
