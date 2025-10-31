@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2em;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.tab {
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #eee;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.activa {
+  background-color: #2196f3;
+  color: white;
+}
+
+.paneles {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Ocultamos los paneles no activos */
+.panel {
+  display: none;
+  animation: aparecer 0.3s ease;
+}
+
+.panel.activo {
+  display: block;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

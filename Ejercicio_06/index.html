@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pestañas con data-*</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1>Pestañas con data-*</h1>
+
+  <div class="tabs">
+    <button class="tab activa" data-panel="panel1">Inicio</button>
+    <button class="tab" data-panel="panel2">Menú</button>
+    <button class="tab" data-panel="panel3">Contacto</button>
+  </div>
+
+  <div class="paneles">
+    <div id="panel1" class="panel activo">
+      <h2>Bienvenido</h2>
+      <p>Esta es la sección de inicio.</p>
+    </div>
+
+    <div id="panel2" class="panel">
+      <h2>Menú</h2>
+      <p>Ofrecemos café, té, y pastelería artesanal.</p>
+    </div>
+
+    <div id="panel3" class="panel">
+      <h2>Contacto</h2>
+      <p>Ubícanos en Calle Montaña 123 o escríbenos.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
