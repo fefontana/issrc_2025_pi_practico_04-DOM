@@ -151,7 +151,7 @@ Cada ejercicio representa una funcionalidad común en interfaces web modernas: i
 ---
 
 ## 👨‍💻 Autor
-**F.Fontana**  
+**ChatGPT & F.Fontana**  
 Instituto Superior Santa Rosa de Calamuchita  
 Cátedra: *Proyecto Integrador I (2025)*  
 Profesor: *Javier Bozzo*  
